@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Web;
+
+namespace ConsoleApp6
+{
+    class Osoba
+    {
+
+    }
+    class Auto
+    {
+        public string marka;
+        public int rocznik;
+        public int przebieg;
+        
+    }
+    class Pracownik : Osoba
+    {
+        public string imie;
+        public string nazwisko;
+        public string stanowisko;
+        public string data_ur;
+        public int zarobek;
+    }
+    class Klient : Osoba
+    {
+        public string imie;
+        public string nazwisko;
+        private int Id;
+    }
+    class Warsztat
+    {
+        public string lokalizacja;
+        public string narzędzia;
+        public void naprawy() 
+        { 
+
+        }
+        public Auto auto;
+    }
+    class Cennik
+    {
+        public int ceny;
+        public Auto auto;
+    }
+    class Wyporzyczenia
+    {
+        public string data_wyp;
+        public void wyporzyczenie()
+        {
+
+        }
+    }
+    class Zamówienie
+    {
+        public void zapisz()
+        {
+
+        }
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        }
+    }
+}
